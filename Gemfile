@@ -10,6 +10,7 @@ group :production do
 end
 group :development, :test do
   gem 'sqlite3'
+  gem 'rspec-rails',      ">= 2.0.0.beta"
 end
 
 
@@ -27,6 +28,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem "rspec"
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

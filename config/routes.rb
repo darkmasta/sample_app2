@@ -3,6 +3,8 @@ SampleApp::Application.routes.draw do
 
   get "pages/contact"
 
+  get "pages/about"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -32,7 +34,7 @@ SampleApp::Application.routes.draw do
   # Sample resource route with sub-resources:
   #   resources :products do
   #     resources :comments, :sales
-  #     resource :seller
+  #     resource :seller                    
   #   end
 
   # Sample resource route with more complex sub-resources
@@ -50,7 +52,7 @@ SampleApp::Application.routes.draw do
   #     resources :products
   #   end
 
-  # You can have the root of your site routed with "root"
+ # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
   # root :to => 'welcome#index'
 
