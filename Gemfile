@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.8'
+gem 'gravatar_image_tag', '0.1.0' 
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -11,6 +12,7 @@ end
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails',      ">= 2.0.0.beta"
+  gem 'factory_girl'      
 end
 
 
