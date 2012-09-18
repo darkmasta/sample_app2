@@ -9,12 +9,16 @@ gem 'gravatar_image_tag', '0.1.0'
 group :production do
   gem 'pg'
 end
-group :development, :test do
+group :development do
   gem 'sqlite3'
-  gem 'rspec-rails',      ">= 2.0.0.beta"
-  gem 'factory_girl'      
+  gem 'rspec-rails', '2.0.0.beta.18'
 end
 
+group :test do
+  gem 'rspec', '2.0.0.beta.18'
+  gem 'webrat', '0.7.1'
+  gem 'factory_girl'
+end
 
 
 # Gems used only for assets and not required
@@ -30,7 +34,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
-gem "rspec"
+
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
